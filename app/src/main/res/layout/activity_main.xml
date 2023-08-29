@@ -4,15 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
     tools:context=".MainActivity">
 
+    <ImageButton
+        android:id="@+id/BtnOds3"
+        android:layout_width="148dp"
+        android:layout_height="155dp"
+        android:background="@drawable/ods_16"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ods_16"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="376dp" />
+
     <TextView
+        android:id="@+id/Tilttle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:fontFamily="@font/bungee_shade"
+        android:text="TayMuca"
+        android:textColor="@color/black"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <ImageButton
+        android:id="@+id/BtnOds1"
+        android:layout_width="148dp"
+        android:layout_height="155dp"
+        android:background="@drawable/ods_3"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ods_3"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <ImageButton
+        android:id="@+id/BtnOds2"
+        android:layout_width="148dp"
+        android:layout_height="155dp"
+        android:background="@drawable/ods_12"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ods_12"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="193dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

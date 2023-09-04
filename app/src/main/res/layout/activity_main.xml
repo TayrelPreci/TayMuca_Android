@@ -11,11 +11,17 @@
         android:id="@+id/BtnOds3"
         android:layout_width="148dp"
         android:layout_height="155dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="200dp"
         android:background="@drawable/ods_16"
         android:scaleType="centerInside"
-        app:srcCompat="@drawable/ods_16"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="376dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnOds1"
+        app:srcCompat="@drawable/ods_16" />
 
     <TextView
         android:id="@+id/Tilttle"
@@ -37,18 +43,28 @@
         android:layout_height="155dp"
         android:background="@drawable/ods_3"
         android:scaleType="centerInside"
-        app:srcCompat="@drawable/ods_3"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="193dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335"
+        app:srcCompat="@drawable/ods_3" />
 
     <ImageButton
         android:id="@+id/BtnOds2"
         android:layout_width="148dp"
         android:layout_height="155dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="29dp"
         android:background="@drawable/ods_12"
         android:scaleType="centerInside"
-        app:srcCompat="@drawable/ods_12"
-        tools:layout_editor_absoluteX="247dp"
-        tools:layout_editor_absoluteY="193dp" />
+        app:layout_constraintBottom_toTopOf="@+id/BtnOds3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/BtnOds1"
+        app:layout_constraintTop_toBottomOf="@+id/Tilttle"
+        app:srcCompat="@drawable/ods_12" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
